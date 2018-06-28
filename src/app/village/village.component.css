@@ -1,5 +1,44 @@
-.element-bg-img img {
-    border-radius: 6px 6px 0px 0px;
+  /*--village start here--*/
+  .village {
+    background: #fff;
+    padding: 1.5em 1em;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .village h3 {
+    text-align: center;
+    font-size: 0.95em;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+
+.ele-strip {
+  background: #fda660;
+  padding: 1em 1em;
+  margin: -3px 0px 0px 0px;
+}
+.temperatur {
+  background: #5fb3f9;
+  text-align: center;
+  padding: 1em 1em;
+  border-radius: 5px;
+  margin-bottom: 2.5em;
+}
+.ele-strip ul{
+  text-align: center;
+}
+.ele-strip ul li {
+  display: inline-block;
+  padding: 0em 0.5em;
+  border-right: 1px solid #fff;
+}
+.ele-strip ul li a{
+  font-size:1em;
+  color: #fff;
 }
 /*--scroll --*/
 .span_7 {
@@ -102,38 +141,3 @@ i.text-info{
 .activity-img ul li img{
     border-radius:50px;
 }
-  /*--village start here--*/
-.village {
-    background: #fff;
-    padding: 1.5em 1em;
-    border-radius: 0px 0px 5px 5px;
-  }
-  .village h3 {
-    text-align: center;
-    font-size: 0.95em;
-    color: #000;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-  }
-  .copy-right {
-    text-align: center;
-    padding:0em 0em 2em 0em;
-  }
-  .copy-right p {
-    font-size: 1em;
-    color: #fff;
-    line-height: 1.6em;
-  }
-  .copy-right p a{
-      color: #fd7b87;
-  }
-  .copy-right p a:hover{
-      color: #fff;
-      text-decoration:none;
-  }
-  .clear{
-     clear:both;
-  }
-
-  nav.vertical ul li{	display:block;}/* vertical menu */
-nav.horizontal ul li{	display: inline-block;}/* horizontal menu */

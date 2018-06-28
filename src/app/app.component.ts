@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public title = 'Hot Weather Widget';
+  public logo = '../assets/images/1.png';
 }

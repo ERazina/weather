@@ -1,11 +1,15 @@
 <h1>Hot Weather Widget</h1>
 <div class="element">
-<app-village></app-village>
-
-		<div class="element-right">
+	<div class="element-left">
+		<div class="element-bg-img">
+			<img [src]="logo" alt="" class="img-responsive">
+		</div>
+		<app-village></app-village>
+	</div>
+	<div class="element-right">
       <app-weather></app-weather>
       <app-teddy-bear></app-teddy-bear>
-		</div>
+	</div>
 	  <div class="clear"> </div>
 </div>
 <div class="copy-right">

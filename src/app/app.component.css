@@ -4,28 +4,41 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+.element {
+  width: 40%;
+  margin: 0 auto 7em;
+}
+.element-left {
+  float: left;
+  width:50%;
+}
+.element-right {
+  float: right;
+   width: 35%;
+}
+.clear{
+  clear:both;
+}
+.element-bg-img img {
+  border-radius: 6px 6px 0px 0px;
+}
 .copy-right {
     text-align: center;
     padding:0em 0em 2em 0em;
-  }
-  .copy-right p {
+}
+.copy-right p {
     font-size: 1em;
     color: #fff;
     line-height: 1.6em;
-  }
-  .copy-right p a{
+}
+.copy-right p a{
       color: #fd7b87;
-  }
-  .copy-right p a:hover{
-      color: #fff;
-      text-decoration:none;
-  }
-  .clear{
-     clear:both;
-  }
-.copy-right p {
-    font-size: 0.85em;
-  }
+}
+.copy-right p a:hover{
+    color: #fff;
+    text-decoration:none;
+}
+
 
 /*--meadia quries start here--*/
 @media(max-width:1600px){

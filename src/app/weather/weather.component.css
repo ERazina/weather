@@ -1,15 +1,12 @@
 /*--header start here--*/
-h1 {
-    text-align: center;
-    font-size: 2em;
-    color: #fff;
-    margin: 3em 0em 2em 0em;
-    font-family: 'Quicksand', sans-serif;
-  }
-  .element {
-    width: 40%;
-    margin: 0 auto 7em;
-  }
+
+span.w-line {
+  background: url(../../assets/images/w-line.png)no-repeat;
+  width: 103px;
+  height: 2px;
+  display: block;
+  margin:0.73em auto 0.72em;
+}
   .ele-strip {
     background: #fda660;
     padding: 1em 1em;
