@@ -18,5 +18,9 @@ export class VillageComponent implements OnInit {
   ngOnInit() {
   }
 
+  public filterPlaces(): void {
+    console.log('href');
+  }
+
 
 }
